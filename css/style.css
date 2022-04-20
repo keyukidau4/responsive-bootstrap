@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&family=Poppins:ital,wght@0,300;1,300;1,400;1,500;1,600&display=swap");
+
+html,
+body {
+  width: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+html::-webkit-scrollbar {
+  width: 7px;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgba(183, 202, 7, 0.254);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: rgb(171, 121, 29);
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: rgb(107, 86, 47);
+}
+
+.container {
+  background: rgb(141, 170, 28);
+  opacity: 0.8;
+  border: 1px solid;
+}
+
+.navbar-branch i.bx.bxs-component {
+  font-size: 50px;
+}
+
+.navbar {
+  background-color: rgb(62, 178, 184, 0.6) !important;
+}
+
+.navbar-collapse {
+  transition: all 0.3s linear;
+}
+
+.carousel {
+  margin-top: 20px !important;
+}
+
+.carousel-inner img {
+  height: 500px;
+  width: 50% !important;
+  margin-left: auto;
+  transform: translateX(-50%);
+}
+
+.carousel-caption button {
+  left: 0% !important;
+  background-color: rgb(62, 178, 184, 0.6);
+  color: white;
+  transition: all 0.5s linear;
+}
+
+.carousel-caption button:hover {
+  background-color: rgb(97, 32, 159);
+}
+
+.jumbotron {
+  margin-top: 10px;
+  background-color: bisque;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.jumbotron button {
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+
+.fun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.fun button {
+  margin: auto;
+  width: 150px;
+  transition: all .4s linear;
+}
+
+.bxl-html5 {
+  color: red;
+  font-size: 50px;
+}
+.bxl-css3 {
+  font-size: 50px;
+  color: rgb(61, 61, 221);
+}
+.bxl-javascript {
+  font-size: 50px;
+  color: yellow;
+}
+
+.ec-site img {
+  margin: 5px 0 !important;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-inner img {
+    height: 250px;
+  }
+}
