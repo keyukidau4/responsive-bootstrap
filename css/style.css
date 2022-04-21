@@ -24,7 +24,6 @@ html::-webkit-scrollbar-thumb:hover {
 }
 
 .container {
-  background: rgb(141, 170, 28);
   opacity: 0.8;
   border: 1px solid;
 }
@@ -50,6 +49,7 @@ html::-webkit-scrollbar-thumb:hover {
   width: 50% !important;
   margin-left: auto;
   transform: translateX(-50%);
+  opacity: .7;
 }
 
 .carousel-caption button {
